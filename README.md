@@ -12,7 +12,13 @@ At this point, an image has been built which contains Apache, PHP and all of the
 
 Finally, docker copies everything in src/ inside this repository to the /var/www/html folder inside the image. This is the Apache web root directory.
 
-# Setup
+# Setup On Windows:
+ 
+ - Ensure you have Docker installed and running
+ - docker-compose build
+ - docker-compose up
+
+# Setup On Mac:
 
  - Ensure you have Docker installed and running
  - `sudo docker-compose build` 
