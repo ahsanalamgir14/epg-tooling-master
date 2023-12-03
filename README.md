@@ -18,6 +18,10 @@ Finally, docker copies everything in src/ inside this repository to the /var/www
  - `sudo docker-compose build` 
  - `sudo docker-compose up`
 
+# Possible Errors
+ - If you received any error in build command regarding php, run the below command:
+ - rm  ~/.docker/config.json 
+
 # File sharing for mac
 
 If you are using macOS add the project folder path in settings -> Resources -> File Sharing.
